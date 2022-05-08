@@ -1,0 +1,10 @@
+# idea
+.idea/
+
+# vscode
+.vscode/
+*.code-workspace
+
+# virtual env
+.venv/
+.python-version
