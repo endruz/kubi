@@ -15,8 +15,6 @@ RUN apt update && \
     unzip chromedriver_linux64.zip && \
     chmod 755 chromedriver && \
     mv chromedriver /usr/local/bin/  && \
-    # 安装 selenium
-    pip install selenium  && \
     # 清理文件
     rm -f google-chrome-stable_current_amd64.deb chromedriver_linux64.zip && \
     apt autoremove --purge -y && \
